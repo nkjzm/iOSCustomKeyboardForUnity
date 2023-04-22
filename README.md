@@ -1,5 +1,11 @@
 # UnityCustomKeyboard
 
+
+This plugin was created and published in the process of developing the following application
+
+[ONE NIGHT WEREWOLF ONLINE](https://online.1nite-jinro.com/)
+
+
 # UPM Package
 
 After Unity 2019.3.4f1, Unity 2020.1a21, that support path query parameter of git package. 
@@ -20,4 +26,9 @@ $ xcodebuild -project UnityCustomKeyboard.xcodeproj -scheme UnityCustomKeyboard-
 
 # 3. Buildフォルダ以下に生成された UnityCustomKeyboard.framework を Unityプロジェクトの Plugins/iOSフォルダにインポートする
 ```
+
+# Author
+
+nkzjm  
+https://twitter.com/nkjzm
 
