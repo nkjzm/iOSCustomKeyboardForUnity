@@ -1,6 +1,6 @@
 # UnityCustomKeyboard
 
-![](https://github.com/nkjzm/iOSCustomKeyboardForUnity/blob/main/sample.jpg)
+<img src="https://github.com/nkjzm/iOSCustomKeyboardForUnity/blob/main/sample.jpg" width="400">
 
 
 This plugin was created and published in the process of developing the following application
