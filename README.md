@@ -1,5 +1,7 @@
 # UnityCustomKeyboard
 
+![](https://github.com/nkjzm/iOSCustomKeyboardForUnity/blob/main/sample.jpg)
+
 
 This plugin was created and published in the process of developing the following application
 
