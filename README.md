@@ -7,7 +7,7 @@ After Unity 2019.3.4f1, Unity 2020.1a21, that support path query parameter of gi
 1. Open your Unity project.
 2. Open `Window -> Package Manager`.
 3. Click "+" > "Add package from git URL...".
-4. Enter `https://github.com/nkjzm/iOSCustomKeyboardForUnity.git?path=Build` and click "Add".
+4. Enter `https://github.com/nkjzm/iOSCustomKeyboardForUnity.git?path=Unity/Assets` and click "Add".
 
 # Usage
 
