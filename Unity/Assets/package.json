@@ -1,0 +1,9 @@
+{
+  "name": "jp.nkjzm.iOSCustomKeyboardForUnity",
+  "version": "1.0.0",
+  "displayName": "iOSCustomKeyboardForUnity",
+  "description": "Plugin to extend iOS native keyboard for Unity",
+  "unity": "2021.3",
+  "license": "MIT",
+  "dependencies": {}
+}
