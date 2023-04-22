@@ -29,6 +29,31 @@ $ xcodebuild -project UnityCustomKeyboard.xcodeproj -scheme UnityCustomKeyboard-
 # 3. Buildフォルダ以下に生成された UnityCustomKeyboard.framework を Unityプロジェクトの Plugins/iOSフォルダにインポートする
 ```
 
+# Sample Code
+
+
+```.cs
+        private void openKeyboard(string text)
+        {
+            keyboard = TouchScreenKeyboard.Open(string.Empty);
+#if UNITY_IOS
+            StartCoroutine(CustomizeKeyboardReturnKeyCoroutine("Send"));
+#endif
+        }
+
+#if UNITY_IOS
+        [DllImport("__Internal")]
+        private static extern void CustomizeKeyboardReturnKey(string returnKeyType);
+
+        private IEnumerator CustomizeKeyboardReturnKeyCoroutine(string returnKeyType)
+        {
+            // 呼び出し直後はプラグイン上で取得ができないため、1フレーム待つ
+            yield return null;
+            CustomizeKeyboardReturnKey(returnKeyType);
+        }
+#endif
+```
+
 # Author
 
 nkzjm  
